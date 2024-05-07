@@ -8,14 +8,14 @@ const Hero = () => {
   return (
     <section>
       <main className="max-w-[1380px] m-auto">
-        <div className="h-screen w-full flex-betweem flex-col relative">
+        <div className="h-screen w-full flex-between flex-col relative">
           <Image
             src={Gradientbg}
             alt="gradient background"
             className="h-full w-full object-cover absolute z-[-1] top-0"
           />
-          <div className="flex-[1] lg:flex-[2] flex-center flex-col gap-5 text-center">
-            <h1 className="text-4xl lg:text-6xl font-extrabold">
+          <div className="flex-[1] flex-center flex-col gap-5 text-center">
+            <h1 className="text-4xl md:text-5xl lg:text-6xl font-extrabold">
               The Visual Builder For <br /> your tech stack
             </h1>
             <p className="text-md md:text-lg font-medium">
@@ -29,11 +29,11 @@ const Hero = () => {
               </Link>
             </span>
           </div>
-          <div className="flex-[1] flex-center relative p-5">
+          <div className="flex-[1] w-full flex-start px-2">
             <Image
               src={Design}
               alt="design"
-              className="h-[90%] top-0 z-[10] object-cover"
+              className="w-[100%] object-cover"
             />
           </div>
         </div>

@@ -16,8 +16,8 @@ const ConnectTo = () => {
             alt="Gradient-bg"
             className="h-full w-full object-cover absolute z-[-1]"
           />
-          <div className="h-full w-full flex-center">
-            <div className="h-[70%] w-[85%] flex-between bg-white shadow-lg">
+          <div className="h-full w-full flex-center flex-col">
+            <div className="h-[90%] md:h-[70%] w-[95%] md:w-[85%] flex-between flex-col md:flex-row bg-white shadow-lg">
               <div className="h-full flex-[1] flex flex-col gap-5 items-start justify-center px-5">
                 <Image
                   src={Model}

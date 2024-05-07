@@ -20,7 +20,7 @@ const Header = () => {
           </div>
           <div className='flex-[2] md:flex-[1] flex-end px-3'>
             <span className='px-5 lg:px-7 py-3 bg-tranperant duration-200'><Link href='' className='text-sm md:text-md text-black font-semibold'>Sign In</Link></span>
-            <span className='px-5 lg:px-7 py-3 bg-black rounded-3xl duration-200'><Link href='' className='text-md md:text-md text-white font-semibold'>Sign Up</Link></span>
+            <span className='px-5 lg:px-7 py-3 bg-black rounded-3xl duration-200'><Link href='' className='text-sm md:text-md text-white font-semibold'>Sign Up</Link></span>
           </div>
         </div>
       </main>
