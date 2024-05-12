@@ -4,7 +4,7 @@ import Image from "next/image";
 import ConnectTobg from "../../../public/ConnectTo-bg.png";
 import Model from "../../../public/ConnectTo-3d-model.png";
 import Arrow from "../../../public/arrow-right-line.png";
-import Diagram from '../../../public/Connect diagram.png'
+import Diagram from "../../../public/Connect diagram.png";
 
 const ConnectTo = () => {
   return (
@@ -28,16 +28,22 @@ const ConnectTo = () => {
                 />
                 <h1 className="text-4xl font-medium">Connect to</h1>
                 <p className="text-lg font-medium">
-                  popular data sources like Airtable, <br  className="hidden lg:flex"/> PostgreSQL and
-                  Shopify with built-in connectors, or <br  className="hidden lg:flex"/>connect to any GraphQL or
-                  REST API endpoint.
+                  popular data sources like Airtable,{" "}
+                  <br className="hidden lg:flex" /> PostgreSQL and Shopify with
+                  built-in connectors, or <br className="hidden lg:flex" />
+                  connect to any GraphQL or REST API endpoint.
                 </p>
                 <span className="px-7 py-2 border-2 flex border-blue-500 text-blue-700 font-medium rounded-3xl gap-2">
-                    See All Integrations <Image src={Arrow} height={20} width={20} alt="arrow"/>
+                  See All Integrations{" "}
+                  <Image src={Arrow} height={20} width={20} alt="arrow" />
                 </span>
               </div>
               <div className="h-full flex-[1] flex-center">
-                <Image src={Diagram} alt="diagram" className="h-full w-full object-cover"/>
+                <Image
+                  src={Diagram}
+                  alt="diagram"
+                  className="h-full w-full object-cover"
+                />
               </div>
             </div>
           </div>

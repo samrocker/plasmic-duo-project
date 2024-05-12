@@ -14,7 +14,7 @@ const Hero = () => {
             alt="gradient background"
             className="h-full w-full object-cover absolute z-[-1] top-0"
           />
-          <div className="flex-[1] flex-center flex-col gap-5 text-center py-16">
+          <div className="flex-[1] flex-center flex-col gap-5 text-center md:py-16">
             <h1 className="text-4xl md:text-5xl lg:text-6xl font-extrabold">
               The visual builder For <br /> your tech stack
             </h1>
@@ -29,7 +29,7 @@ const Hero = () => {
               </Link>
             </span>
           </div>
-          <div className="flex-[1] flex-start">
+          <div className="flex-[1] hidden md:flex-start">
             <Image
               src={Design}
               alt="design"

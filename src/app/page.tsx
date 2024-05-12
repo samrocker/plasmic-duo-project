@@ -3,7 +3,8 @@ import Hero from "@/components/(main)/Hero";
 import TrustedCompanies from "@/components/(main)/TrustedCompanies";
 import ConnectTo from "@/components/(main)/ConnectTo";
 import IntegrateCodebase from "@/components/(main)/Integrate-codebase";
-import ExistingCardSection from "@/components/(main)/ExistingCardSection";
+import IntegratedCodebase2 from "@/components/(main)/Integrated-codebase2";
+import Experience from "@/components/(main)/Experience";
 
 export default function Home() {
   return (
@@ -13,7 +14,8 @@ export default function Home() {
     <TrustedCompanies />
     <ConnectTo />
     <IntegrateCodebase />
-    <ExistingCardSection />
+    <IntegratedCodebase2 />
+    <Experience />
     </>
   );
 }

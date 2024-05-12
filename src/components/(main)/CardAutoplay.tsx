@@ -36,7 +36,7 @@ export function CarouselPlugin() {
       onMouseEnter={plugin.current.stop}
       onMouseLeave={plugin.current.reset}
     >
-      <CarouselContent className="h-26 w-full">
+      <CarouselContent className="h-26` w-full">
       <CarouselItem>
                     <Image
                       src={companyLogo1}

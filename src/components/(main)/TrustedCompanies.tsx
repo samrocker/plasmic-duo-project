@@ -1,4 +1,3 @@
-
 import React from "react";
 import Image from "next/image";
 import companyLogo1 from "../../../public/1.png";
@@ -17,7 +16,6 @@ import star from "../../../public/orange star.png";
 import { CarouselPlugin } from "./CardAutoplay";
 
 const TrustedCompanies = () => {
-    
   return (
     <section>
       <main className="max-w-[1380px] m-auto">
@@ -130,11 +128,13 @@ const TrustedCompanies = () => {
             <span className="px-5 py-3 border-2 border-blue-500 text-sm text-blue-700 font-bold rounded-3xl">
               HOW IT WORKS
             </span>
-            <h1 className="text-4xl lg:text-6xl font-bold">Building Experiences</h1>
+            <h1 className="text-4xl lg:text-6xl font-bold">
+              Building Experiences
+            </h1>
             <h1 className="text-4xl lg:text-6xl font-bold">Blazingly fast</h1>
             <p className="text-lg font-medium">
               Get started with a growing library of ready made components and
-              popular data and <br className="hidden lg:flex"/>
+              popular data and <br className="hidden lg:flex" />
               app integrations. Build custom experiences with interactions and
               dynamic values.
             </p>
