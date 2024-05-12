@@ -9,7 +9,7 @@ const Experience = () => {
             <span className="text-white px-5 py-2 rounded-3xl border-[1px] border-white">
               DESIGN
             </span>
-            <h1 className="text-white text-5xl text-center font-bold">
+            <h1 className="text-white text-3xl lg:text-5xl text-center font-bold">
               Design experiences <br /> your users will love
             </h1>
             <p className="text-sm text-white text-center opacity-75">
