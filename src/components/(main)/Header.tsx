@@ -43,7 +43,7 @@ const Header = () => {
                 Sign In
               </Link>
             </span>
-            <span className="px-5 lg:px-7 py-3 bg-black rounded-3xl duration-200">
+            <span className="px-7 lg:px-7 py-3 bg-black rounded-3xl duration-200">
               <Link
                 href=""
                 className="text-sm md:text-md text-white font-semibold"
