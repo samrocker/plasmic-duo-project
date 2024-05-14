@@ -131,7 +131,7 @@ const TrustedCompanies = () => {
             <h1 className="text-4xl lg:text-6xl font-bold">
               Building Experiences
             </h1>
-            <h1 className="text-4xl lg:text-6xl font-bold">Blazingly fast</h1>
+            <h1 className="text-4xl lg:text-6xl font-bold text-gradient-company">Blazingly fast</h1>
             <p className="text-lg font-medium">
               Get started with a growing library of ready made components and
               popular data and <br className="hidden lg:flex" />

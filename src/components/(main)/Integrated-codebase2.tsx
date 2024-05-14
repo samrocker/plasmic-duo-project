@@ -25,7 +25,7 @@ const IntegratedCodebase2 = () => {
                 className="object-cover"
               />
               <h1 className="text-black text-3xl font-bold text-right">
-                Build within <br /> existing apps
+                Build within <br /> <span className="text-gradient-integrate">existing apps</span>
               </h1>
               <p className="text-black text-sm font-bold text-right">
                 Instead of iframes, Plasmic lets you build <br /> pages that

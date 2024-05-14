@@ -13,8 +13,8 @@ const Experience2 = () => {
           <div className="flex-[1] w-full flex-between flex-col lg:flex-row">
             <div className="h-full flex-[1] flex-col flex gap-5 items-start justify-center px-3">
               <Image src={CustomUIicon} alt="" height={50} width={50} />
-              <h1 className="text-white text-2xl font-medium">
-                Create <br /> Completely <br /> custom UIs
+              <h1 className="text-white text-2xl lg:text-4xl font-medium">
+                Create <br /> Completely <br /> <span className="text-gradient-hero">custom UIs</span>
               </h1>
               <p className="text-md font-medium text-white/75">Create unique, custom UIs with arbitrary <br /> layouts and styling that can be tailored to <br /> your specific needs and requirements.</p>
             </div>
@@ -28,8 +28,8 @@ const Experience2 = () => {
             </div>
             <div className="h-full flex-[1] flex-col flex gap-5 items-end justify-center px-3">
               <Image src={Figmaicon} alt="" height={50} width={50} />
-              <h1 className="text-white text-2xl font-medium text-right">
-                Create <br /> Completely <br /> custom UIs
+              <h1 className="text-white text-2xl lg:text-4xl font-medium text-right">
+              Import with <br /> <span className="text-gradient-hero">Figma</span>
               </h1>
               <p className="text-md font-medium text-white/75 text-right">Create unique, custom UIs with arbitrary <br /> layouts and styling that can be tailored to <br /> your specific needs and requirements.</p>
             </div>

@@ -13,9 +13,9 @@ const Experience = () => {
               DESIGN
             </span>
             <h1 className="text-white text-3xl lg:text-7xl text-center font-bold">
-              Design experiences <br /> your users will love
+              Design experiences <br /> your users will <span className="text-gradient-hero">love</span>
             </h1>
-            <p className="text-sm text-white text-center opacity-75">
+            <p className="text-sm lg:text-xl text-white text-center opacity-75">
               Design custom UIs with responsive layouts and styling that set
               <br /> you apart and delight your users.
             </p>

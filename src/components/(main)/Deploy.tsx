@@ -12,7 +12,7 @@ const Deploy = () => {
               HOW IT WORKS
             </span>
             <h1 className="text-4xl lg:text-5xl font-bold">
-              Deploy <br /> anywhere
+              Deploy <br /> <span className="text-gradient-company">anywhere</span>
             </h1>
             <p className="text-md lg:text-lg font-medium">
               Deploy to your choice of hosting infrastructure, so you can

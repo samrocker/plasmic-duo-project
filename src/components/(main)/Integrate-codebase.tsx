@@ -13,7 +13,7 @@ const IntegrateCodebase = () => {
               POWER
             </span>
             <h1 className="text-4xl md:text-6xl font-bold text-black text-center">
-              Integrate with any <br /> codebase
+              Integrate with any <br /> <span className="text-gradient-integrate">codebase</span>
             </h1>
             <p className="text-md md:text-lg font-medium text-center px-3">
               Unlike other no-code and low-code builders, Plasmic integrates
@@ -31,7 +31,7 @@ const IntegrateCodebase = () => {
                 className="object-cover"
               />
               <h1 className="text-black text-3xl font-bold">
-                Build with your <br /> component
+                Build with your <br /> <span className="text-gradient-integrate">component</span>
               </h1>
               <p className="text-black text-sm font-bold">
                 Harness the flexibility to create apps that fit <br /> your

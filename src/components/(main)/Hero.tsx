@@ -15,8 +15,8 @@ const Hero = () => {
             className="h-full w-full object-cover absolute z-[-1] top-0"
           />
           <div className="flex-[1] flex-center flex-col gap-5 text-center md:py-16">
-            <h1 className="text-4xl md:text-5xl lg:text-6xl font-extrabold">
-              The visual builder For <br /> your tech stack
+            <h1 className="text-4xl md:text-5xl lg:text-6xl font-extrabold ">
+               The <span className="text-gradient-hero"> visual builder</span> For <br /> your tech stack
             </h1>
             <p className="text-md md:text-lg font-medium">
               Plasmic is an open-source visual editing and content platform for

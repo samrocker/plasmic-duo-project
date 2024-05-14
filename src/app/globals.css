@@ -80,6 +80,24 @@
     .flex-end {
       @apply flex justify-end items-center;
     }
+    .text-gradient-hero {
+      background-clip: text;
+      -webkit-background-clip: text;
+      color: transparent;
+      background-image: linear-gradient(45deg, #8636F8, #F020B3, #F8475E, #FF9421);
+    }
+    .text-gradient-company {
+      background-clip: text;
+      -webkit-background-clip: text;
+      color: transparent;
+      background-image: linear-gradient(45deg, #00AAFF, #8636F8);
+    }
+    .text-gradient-integrate {
+      background-clip: text;
+      -webkit-background-clip: text;
+      color: transparent;
+      background-image: linear-gradient(45deg, #FFB800, #F8367C);
+    }
   }
   
 

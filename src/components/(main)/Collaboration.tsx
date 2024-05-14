@@ -10,7 +10,8 @@ const Collaboration = () => {
               Collaboration
             </span>
             <h1 className="text-5xl lg:text-7xl font-bold">
-              Bridge The gap <br /> between teams
+              <span className="text-gradient-company">Bridge The gap</span>{" "}
+              <br /> between teams
             </h1>
             <p className="text-lg lg:text-2xl font-medium">
               Plasmic makes the development process more collaborative, so
@@ -21,7 +22,8 @@ const Collaboration = () => {
           <div className="flex-[1] w-full flex-col lg:flex-row flex-between">
             <div className="flex-[1] flex flex-col gap-5 items-start justify-center">
               <h1 className="text-4xl lg:text-4xl font-bold">
-                Empower <br /> non-developers
+                Empower <br />{" "}
+                <span className="text-gradient-company">non-developers</span>
               </h1>
               <p className="text-sm lg:text-lg font-medium">
                 Empower marketing, content, design, and product <br /> teams to
@@ -32,7 +34,8 @@ const Collaboration = () => {
             </div>
             <div className="flex-[1] flex flex-col gap-5 items-start justify-center">
               <h1 className="text-4xl lg:text-4xl font-bold">
-                effortlessly <br /> Collaborate
+                Collaborate <br />{" "}
+                <span className="text-gradient-company">effortlessly</span>
               </h1>
               <p className="text-sm lg:text-lg font-medium">
                 Go from silos and endless backlogs to streamlined <br />{" "}
